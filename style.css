@@ -1,0 +1,86 @@
+/* Estilos base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Encabezado */
+header {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+h2 {
+  color: #004aad;
+  margin-top: 20px;
+}
+
+/* Secciones */
+main {
+  width: 85%;
+  margin: 20px auto;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #cde3ff;
+}
+
+/* Imagen */
+figure {
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 5px;
+  font-style: italic;
+  color: #555;
+}
+
+/* Botón */
+button {
+  background-color: #ff7b00;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  background-color: #002f6c;
+  color: white;
+  padding: 15px 0;
+}

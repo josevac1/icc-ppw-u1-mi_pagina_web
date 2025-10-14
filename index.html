@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi pagina web</title>
+    <link rel="stylesheet" href="style.css"/>
     <style>
         table, th, td {
             border: 1px solid black;
@@ -51,12 +52,26 @@
 
     <section>
         <h2>Mi juego favorito</h2>
-        <img src="zelda.png" height="400" width="400"/>
+        <figure>
+        <img src="zelda.png" alt="Juego The Legend of Zelda" height="300" width="300">
+        <figcaption>The Legend of Zelda — Majora's Mask</figcaption>
+      </figure>
     </section>
     
-
+        <section>
+        <h2>Más información</h2>
+        <details>
+            <summary>Haz clic para saber más</summary>
+            <p>Esta página fue creada como práctica de la asignatura <em>Programación y Plataformas Web</em> aplicando los estándares de HTML5, CSS y JavaScript.</p>
+        </details>
+        </section>
+        
     <footer>
         <p>Jose Vanegas Materia: Programación y Plataformas web grupo 2 </p>
+        <button id="colorBtn">Cambiar color del título</button>
+  </footer>
+
+  <script src="codigo.js"></script>
   </body>
 </html>
 
