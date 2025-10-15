@@ -157,8 +157,7 @@ document.getElementById("colorBtn").addEventListener("click", function () {
   const colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
   h1.style.color = colorAleatorio;
 });
-
-
+```
 ## Capturas de pantalla del proyecto final
 
 * Agregar su captura de pantalla del proyecto final funcionando en el navegador, de ambas versiones (sin y con CSS/JS)
