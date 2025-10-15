@@ -14,14 +14,23 @@
   </head>
   <body>
     <header>
-      <h1>Mi paguina web</h1>
+      <h1>Mi pagina web</h1>
       <h2>Sobre mi</h2>
       <p>Hola, mi nombre es Jose Vanegas y me gusta la tecnología. Me encanta aprender sobre nuevas tecnologías y compartir mis conocimientos con los demás.</p>
       <p>Estoy emocionado de crear esta página web para compartir mis intereses y pasatiempos con ustedes.</p>  
     
     </header>
 
-    <section>
+    <nav>
+    <ul>
+      <li><a href="#componentes">Componentes de un PC</a></li>
+      <li><a href="#hobbies">Mis hobbies</a></li>
+      <li><a href="#juego">Mi juego favorito</a></li>
+      <li><a href="#info">Más información</a></li>
+    </ul>
+  </nav>
+
+    <section id="componentes">
         <h2>Componentes de un PC</h2>
         <table>
             <tr>
@@ -37,10 +46,11 @@
             <td>Información complementaria como Sidebar, nota, anuncio</td>
         </tr>
         </table>
+        <button id="agregarFila">Agregar fila</button>
 
     </section>
 
-    <section>
+    <section id="hobbies">
         <h2>Mis hobbies</h2>
         <ul>
             <li>Programación</li>
@@ -50,7 +60,7 @@
         </ul>
     </section>
 
-    <section>
+    <section id="juego">
         <h2>Mi juego favorito</h2>
         <figure>
         <img src="zelda.png" alt="Juego The Legend of Zelda" height="300" width="300">
@@ -58,13 +68,7 @@
       </figure>
     </section>
     
-        <section>
-        <h2>Más información</h2>
-        <details>
-            <summary>Haz clic para saber más</summary>
-            <p>Esta página fue creada como práctica de la asignatura <em>Programación y Plataformas Web</em> aplicando los estándares de HTML5, CSS y JavaScript.</p>
-        </details>
-        </section>
+        
         
     <footer>
         <p>Jose Vanegas Materia: Programación y Plataformas web grupo 2 </p>
