@@ -128,24 +128,12 @@ table {
 ```
 ---
 
-###  4. Interactividad agregada con JavaScript
+### 4. Interactividad agregada con JavaScript
 
-El archivo `codigo.js` incorpora dos acciones básicas:
-
-1. **Cambia el color del título principal al hacer clic**
-
-   ```javascript
-   document.getElementById("colorBtn").addEventListener("click", function () {
-  const h1 = document.querySelector("h1");
-  const colores = ["#e63946", "#457b9d", "#2a9d8f", "#ffb703", "#9c27b0"];
-  const colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
-  h1.style.color = colorAleatorio;
-});
- 
-```
-2. **Agregar una nueva fila a la tabla al presionar el botón**
+El archivo `codigo.js` incorpora dos acciones básicas que mejoran la experiencia del usuario:
 
 ```javascript
+// 1️⃣ Agregar una nueva fila a la tabla al presionar el botón
 const boton = document.getElementById("agregarFila");
 if (boton) {
   boton.addEventListener("click", () => {
@@ -161,8 +149,15 @@ if (boton) {
     setTimeout(() => (nuevaFila.style.backgroundColor = "white"), 1000);
   });
 }
-    
-```
+
+// 2️⃣ Cambiar el color del título mediante un botón
+document.getElementById("colorBtn").addEventListener("click", function () {
+  const h1 = document.querySelector("h1");
+  const colores = ["#e63946", "#457b9d", "#2a9d8f", "#ffb703", "#9c27b0"];
+  const colorAleatorio = colores[Math.floor(Math.random() * colores.length)];
+  h1.style.color = colorAleatorio;
+});
+
 
 ## Capturas de pantalla del proyecto final
 
