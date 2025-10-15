@@ -5,7 +5,7 @@
 **Asignatura:** Programación y Plataformas Web  
 **Unidad:** 1.2 – Estándares Web  
 **Estudiante:** Jose Vanegas  
-**Repositorio:** [https://github.com/josevac1/icc-ppw-u1-mi_pagina_web)
+**Repositorio:** [https://github.com/josevac1/icc-ppw-u1-mi_pagina_web)  
 **Página desplegada (GitHub Pages):** [https://josevac1.github.io/icc-ppw-u1-mi_pagina_web/)
 
 ---
